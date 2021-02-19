@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import pic02 from '../images/pic02.png'
 
 class Main extends React.Component {
   render() {
@@ -60,16 +60,19 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img
+              style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto' }}
+              src={pic02}
+              alt=""
+            />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            I am a Web Developer currently living in New York City. My preferred
+            languages are React and Node.js. Other proficiencies include
+            Typescript, Git, Python, Vanilla JavaScript, HTML, CSS, End-To-End
+            Testing, LESS, Postgres, Redux, Relational Databases, RESTful
+            Architecture, SQL and Agile Project Management. I am currently open
+            to work so feel free to contact me with any inquiries.
           </p>
           {close}
         </article>

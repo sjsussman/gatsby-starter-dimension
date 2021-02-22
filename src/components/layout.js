@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import favicon from '../images/favicon.png'
+import favicon from '../images/favicon-1.png'
 import { StaticQuery, graphql } from 'gatsby'
 
 import '../assets/scss/main.scss'

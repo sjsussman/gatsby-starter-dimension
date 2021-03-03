@@ -33,7 +33,7 @@ const Layout = ({ children, location }) => {
       render={data => (
         <>
           <Helmet
-            title={data.site.siteMetadata.title}
+            title={'SS Portfolio'}
             meta={[
               { name: 'description', content: 'Sample' },
               { name: 'keywords', content: 'sample, something' },

@@ -39,7 +39,7 @@ class Main extends React.Component {
           </span>
           <p style={{ marginBottom: '5px' }}>
             Dev Chat is a messaging app to connect software engineers, of all
-            technical backgrounds, accross the world. <br /> Tech Stack:
+            technical backgrounds, across the world. <br /> Tech Stack:
           </p>
           <ul>
             <li>React.js</li>

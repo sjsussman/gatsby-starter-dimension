@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.png'
 import pic02 from '../images/pic02.png'
+import pic03 from '../images/pic03.png'
 
 class Main extends React.Component {
   render() {
@@ -28,6 +29,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+          <h3 className="projectTitle">Dev Chat</h3>
           <span className="image main">
             <a
               href="https://my-dev-chat.vercel.app/"
@@ -47,6 +49,27 @@ class Main extends React.Component {
             <li>Material UI</li>
             <li>Context State Management</li>
             <li>Yup Validation</li>
+          </ul>
+          <h3 className="projectTitle">Data Visualization: Chess</h3>
+          <span className="image main">
+            <a
+              href="https://public.tableau.com/profile/steven.sussman#!/vizhome/ChessWinPercentagesbyOpenings/Dashboard1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={pic03} alt="" />
+            </a>
+          </span>
+          <p style={{ marginBottom: '5px' }}>
+            Chess data visualization with a focus on openers and win percentage
+            by color. <br /> Information:
+          </p>
+          <ul>
+            <li>Created on Tableau</li>
+            <li>Uses aggregated data from approximately 20,000 chess games</li>
+            <li>
+              Details game information information by color and / or opener name
+            </li>
           </ul>
           {close}
         </article>
